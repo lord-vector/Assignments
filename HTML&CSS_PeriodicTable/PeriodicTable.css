@@ -9,7 +9,18 @@ td{
     text-align: center;
 }
 
-table, td {
-    border: 1px solid;
+caption {
+    text-align: center;
+    line-height: 10vh;
+    font-size: xxx-large;
+    background-color: yellow;
+}
+
+table, td, caption {
+    border: 1px solid red;
     border-collapse: collapse;
+}
+
+.empty {
+    border: none;
 }
