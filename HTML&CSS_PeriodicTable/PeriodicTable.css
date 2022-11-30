@@ -1,0 +1,15 @@
+table{
+    max-width: 95vw;
+    margin: auto;
+}
+
+td{
+    height: 10vh;
+    width: 10vh;
+    text-align: center;
+}
+
+table, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
