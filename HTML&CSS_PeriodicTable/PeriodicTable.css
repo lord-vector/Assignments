@@ -4,23 +4,63 @@ table{
 }
 
 td{
-    height: 10vh;
+    height: 8vh;
     width: 10vh;
     text-align: center;
 }
 
+td:hover{
+    transform: scale(1.1);
+}
+
 caption {
     text-align: center;
-    line-height: 10vh;
+    line-height: 8vh;
     font-size: xxx-large;
     background-color: yellow;
 }
 
 table, td, caption {
-    border: 1px solid red;
+    border: 2px solid red;
     border-collapse: collapse;
 }
 
 .empty {
     border: none;
+}
+
+.orange {
+    background-color: #F5B06F;
+}
+
+.pink {
+    background-color: #DD83E0;
+}
+
+.blue {
+    background-color: #96CAF9;
+}
+
+.yellow {
+    background-color: #F0E17C;
+}
+
+.green {
+    background-color: #C4F07C;
+}
+
+.brown {
+    background-color: #947E0D;
+}
+
+.lightBlue{
+    background-color: #EADFFC;
+}
+
+.lightBrown{
+    background-color: #F5E9AB;
+}
+
+.teal{
+    background-color: #FAEBE1;
 }
