@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(100, 115, 184);
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+}
+
+.inputs {
+    margin: 10px;
+    height: 40px;
+    background-color: transparent;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+.fields:focus{
+    background-color: aliceblue;
+    transform:scale(1.1)
+}
+
+.submit {
+    width: 40%;
+    cursor: pointer;
+}
+
+.submit:hover, .fields:hover {
+    transform:scale(1.1)
+}
+
+.submit:focus ~ .spinner{
+    visibility:inherit;
+}
+
+::placeholder, .submit {
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+
+.submit-section{
+    display: flex;
+}
+
+.spinner{
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+}
+
+.spin {
+    animation: 1s ease-in-out infinite spinner;
+    border: solid 5px #cfd0d1;
+    border-bottom-color: rgb(100, 181, 184);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: auto;
+  }
+
+  @keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
