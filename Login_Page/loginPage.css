@@ -6,14 +6,18 @@ body{
 
 .login {
     display: flex;
+    height: 300px;
+    width: 300px;
     position: absolute;
     flex-direction: column;
-    top: 30%;
-    left: 30%;
-    width: 40%;
+    top: calc(50vh - 150px);
+    left: calc(50vw - 150px);
     margin: auto;
     background-color: rgba(0, 0, 0, 0.512);
     border: 2px solid beige;
+    padding: 5px 10px;
+    color: rgb(250, 250, 247);
+    font-weight: 600;
 }
 
 .background img{
@@ -63,7 +67,7 @@ body{
     display: flex;
     flex-direction: column;
     visibility: hidden;
-    color: beige;
+    color: rgb(250, 250, 247);
 }
 
 .spin {
