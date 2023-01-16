@@ -1,0 +1,139 @@
+body{
+    background-color: #F5F5F5;
+}
+
+main {
+    margin: auto;
+    width: 90vw;
+    background-color: #fff;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    background-color: #938F8F;
+    font-size: 24px;
+    border-radius: 8px;
+}
+
+.title{
+    text-align: right;
+    flex: 30%;
+    color: #fff;
+}
+
+.links{
+    flex: 40%;
+    margin: auto;
+    text-align: center;;
+}
+
+.link{
+    display: inline-block;
+    margin: 15px;
+    transition: transform 0.2s;
+}
+
+.link a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.link:hover{
+    transform: scale(1.1);
+}
+
+.logos{
+    flex: 30%;
+    text-align: center;
+    margin: auto;
+}
+
+.logos img{
+    transition: transform 0.2s;
+}
+
+.logos img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.section{
+    margin-top: 5px;
+}
+
+.details {
+    background: url('./img/pexels-samer-daboul-2233729 1.svg') center no-repeat;
+    background-size: cover;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+details p{
+    margin-bottom: 0;
+}
+
+.sectiondetails{
+    display: flex;
+}
+
+.section-heading{
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #000000;
+    flex: 1;
+    margin: 0;
+}
+
+.down{
+    transition: transform 0.4s;
+}
+
+.down:hover{
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.footersection{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.card{
+    background-color: #EBE8E8;
+    border-radius: 8px;
+    padding: 0 2%;
+    transition: transform 0.2s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.sectionLists{
+    list-style-position: inside;
+    padding: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 25vw;
+}
