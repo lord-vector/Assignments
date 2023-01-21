@@ -83,3 +83,28 @@ const calculateConsecutive = (arr) => {
 
 //Remove comments to see the output
 //console.log(calculateConsecutive([2, 6, 1, 9, 4, 5, 3]));
+
+//Q5. Given a letter, created a function which returns the nearest vowel to the letter.
+//If two vowels are equidistant to the given letter, return the earlier vowel.
+
+const findNearestVowel = (letter) => {
+  const vowelsAscii = [97, 101, 105, 111, 117];
+  let returnedVowel;
+  for (let i = 0; i < vowelsAscii.length; i++) {
+    if (
+      vowelsAscii[i] <= letter.charCodeAt(0) &&
+      vowelsAscii[i + 1] >= letter.charCodeAt(0)
+    ) {
+      returnedVowel =
+        letter.charCodeAt(0) - vowelsAscii[i] <=
+        vowelsAscii[i + 1] - letter.charCodeAt(0)
+          ? String.fromCharCode(vowelsAscii[i])
+          : String.fromCharCode(vowelsAscii[i + 1]);
+    }
+  }
+  return returnedVowel ? returnedVowel : "u";
+};
+
+//Remove comments to see the output
+// console.log(findNearestVowel("u"));
+// console.log(findNearestVowel("u"));
