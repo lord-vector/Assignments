@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(137, 180, 228);
+}
+
+.main {
+  height: 60vh;
+  width: 30vw;
+  background-color: rgb(226, 226, 178);
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 20vh;
+  position: relative;
+}
+
+button {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 10%;
+  border: none;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: rgb(50, 50, 147);
+  color: #fff;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}

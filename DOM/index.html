@@ -8,5 +8,33 @@
     <link rel="shortcut icon" href="./img/DOM.png" />
     <title>DOM Manipulation Assignment</title>
   </head>
-  <body></body>
+  <body>
+    <main class="main">
+      <h6 id="title"></h6>
+      <p id="currentScore"></p>
+      <div class="quiz">
+        <h2 class="question"></h2>
+        <ul>
+          <li class="list">
+            <input type="radio" name="answers" value="" id="answer-1" />
+            <label for="answer-1"></label>
+          </li>
+          <li class="list">
+            <input type="radio" name="answers" value="" id="answer-2" />
+            <label for="answer-2"></label>
+          </li>
+          <li class="list">
+            <input type="radio" name="answers" value="" id="answer-3" />
+            <label for="answer-3"></label>
+          </li>
+          <li class="list">
+            <input type="radio" name="answers" value="" id="answer-4" />
+            <label for="answer-4"></label>
+          </li>
+        </ul>
+        <button onclick="submitButtonClick()">Submit</button>
+      </div>
+    </main>
+  </body>
+  <script src="./script.js"></script>
 </html>
