@@ -10,12 +10,22 @@ body {
   margin: auto;
   margin-top: 20vh;
   position: relative;
+  padding: 10px;
+}
+
+#title {
+  text-align: center;
+}
+
+.question {
+  text-align: center;
 }
 
 button {
   position: absolute;
   width: 100%;
   bottom: 0;
+  left: 0;
   height: 10%;
   border: none;
   border-bottom-left-radius: 8px;

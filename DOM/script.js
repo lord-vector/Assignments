@@ -62,5 +62,3 @@ const submitButtonClick = () => {
   }
   quizeFun(countClick);
 };
-
-console.log(countClick);
