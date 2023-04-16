@@ -1,0 +1,8 @@
+I-Your program should use the fs module to read and write files.
+N-The file paths should be passed as command-line arguments to the program.
+A-If the file paths are not provided, the program should display an error message.
+
+S-If the input file does not exist, the program should display an error message.
+#Your program should filter out empty lines and lines that start with "#" (comments).
+D-The filtered lines should be sorted alphabetically.
+B-The sorted lines should be written to a new text file
